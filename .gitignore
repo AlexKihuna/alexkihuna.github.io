@@ -1,0 +1,26 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+
+# Log Files
+*.log
+*.log*
+
+
+# IDE Files
+nbproject/*
+.project
+.pydevproject
+.idea/*
+
+# sublime
+*.sublime-project
+
+# Swap Files
+*~
+*.swp
+*.swo
