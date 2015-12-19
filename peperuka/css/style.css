@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'pf_din_ThinItalic';
+    src: url('../canvas-child/fonts/pfdin-thinitalic-webfont.eot');
+    src: url('../canvas-child/fonts/pfdin-thinitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../canvas-child/fonts/pfdin-thinitalic-webfont.woff2') format('woff2'),
+    url('../canvas-child/fonts/pfdin-thinitalic-webfont.woff') format('woff'),
+    url('../canvas-child/fonts/pfdin-thinitalic-webfont.ttf') format('truetype'),
+    url('../canvas-child/fonts/pfdin-thinitalic-webfont.svg#pf_dintext_prothin_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_din_ExBlack';
+    src: url('../canvas-child/fonts/pfd-xblack-webfont.eot');
+    src: url('../canvas-child/fonts/pfd-xblack-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../canvas-child/fonts/pfd-xblack-webfont.woff2') format('woff2'),
+    url('../canvas-child/fonts/pfd-xblack-webfont.woff') format('woff'),
+    url('../canvas-child/fonts/pfd-xblack-webfont.ttf') format('truetype'),
+    url('../canvas-child/fonts/pfd-xblack-webfont.svg#pf_din_text_cond_proXBlk') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_din_Thin';
+    src: url('../canvas-child/fonts/pfdin-thin-webfont.eot');
+    src: url('../canvas-child/fonts/pfdin-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../canvas-child/fonts/pfdin-thin-webfont.woff2') format('woff2'),
+    url('../canvas-child/fonts/pfdin-thin-webfont.woff') format('woff'),
+    url('../canvas-child/fonts/pfdin-thin-webfont.ttf') format('truetype'),
+    url('../canvas-child/fonts/pfdin-thin-webfont.svg#pf_dintext_prothin') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_din_Bold';
+    src: url('../canvas-child/fonts/pfdin-bold-webfont.eot');
+    src: url('../canvas-child/fonts/pfdin-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../canvas-child/fonts/pfdin-bold-webfont.woff2') format('woff2'),
+    url('../canvas-child/fonts/pfdin-bold-webfont.woff') format('woff'),
+    url('../canvas-child/fonts/pfdin-bold-webfont.ttf') format('truetype'),
+    url('../canvas-child/fonts/pfdin-bold-webfont.svg#pf_din_text_cond_probold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_din_RegularItalic';
+    src: url('../canvas-child/fonts/pfdin-regularitalic-webfont.eot');
+    src: url('../canvas-child/fonts/pfdin-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../canvas-child/fonts/pfdin-regularitalic-webfont.woff2') format('woff2'),
+    url('../canvas-child/fonts/pfdin-regularitalic-webfont.woff') format('woff'),
+    url('../canvas-child/fonts/pfdin-regularitalic-webfont.ttf') format('truetype'),
+    url('../canvas-child/fonts/pfdin-regularitalic-webfont.svg#pf_dintext_proitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_din_ExBlackItalic';
+    src: url('../canvas-child/fonts/pfd-xblackitalic-webfont.eot');
+    src: url('../canvas-child/fonts/pfd-xblackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../canvas-child/fonts/pfd-xblackitalic-webfont.woff2') format('woff2'),
+    url('../canvas-child/fonts/pfd-xblackitalic-webfont.woff') format('woff'),
+    url('../canvas-child/fonts/pfd-xblackitalic-webfont.ttf') format('truetype'),
+    url('../canvas-child/fonts/pfd-xblackitalic-webfont.svg#pf_din_text_cond_proXBlkIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'pf_din_BoldItalic';
+    src: url('../canvas-child/fonts/pfdin-bolditalic-webfont.eot');
+    src: url('../canvas-child/fonts/pfdin-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../canvas-child/fonts/pfdin-bolditalic-webfont.woff2') format('woff2'),
+    url('../canvas-child/fonts/pfdin-bolditalic-webfont.woff') format('woff'),
+    url('../canvas-child/fonts/pfdin-bolditalic-webfont.ttf') format('truetype'),
+    url('../canvas-child/fonts/pfdin-bolditalic-webfont.svg#pf_din_text_cond_proBdIt') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'pf_din_Regular';
+    src: url('../canvas-child/fonts/pfdin-regular-webfont.eot');
+    src: url('../canvas-child/fonts/pfdin-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../canvas-child/fonts/pfdin-regular-webfont.woff2') format('woff2'),
+    url('../canvas-child/fonts/pfdin-regular-webfont.woff') format('woff'),
+    url('../canvas-child/fonts/pfdin-regular-webfont.ttf') format('truetype'),
+    url('../canvas-child/fonts/pfdin-regular-webfont.svg#pf_din_text_cond_proregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html, body {
+    font-family: 'pf_din_Regular', sans-serif !important;
+    /*font-family: 'Open Sans', 'sans-serif';*/
+    height: 100%;
+}
+
+body {
+    padding-top: 107px;
+}
+
+.carousel-inner img {
+    min-width: 100%;
+}
+
+.navbar-brand img {
+    margin-top: -35px;
+}
+
+.some-margin-after {
+    margin-bottom: 2em;
+}
+
+.top-bar {
+    width: 100%;
+    background-color: #000000;
+    height: 7px;
+}
+
+.bottom-bar {
+    z-index: 1000;
+    position: fixed;
+    bottom: 0;
+    background-color: #000000;
+    width: 100%;
+    padding: 5px;
+    color: #FFFFFF;
+}
+
+.bottom-bar .list-inline{
+    margin-bottom: 0;
+}
+
+.bold-navbar {
+    font-family: 'pf_din_Bold', sans-serif !important;
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'pf_din_Bold', sans-serif !important;
+    text-transform: uppercase;
+}
+
+footer {
+    padding: 1em;
+    margin-bottom: 2em;
+    background-color: #333333;
+    color: #cccccc;
+}
+
+footer li a, footer li a:hover{
+    color: #cccccc;
+    text-decoration: none;
+}
+
+.mambo {
+    color: #8dc540;
+}
+
+.products {
+    color: #fe941e;
+}
+
+.foundation {
+    color: #40aaf6;
+}
