@@ -187,3 +187,46 @@ footer li a, footer li a:hover{
 .renew {
     color: #948b86;
 }
+
+/* Small devices (tablets, 768px and below) */
+@media (max-width: 768px) {
+    .text-center-sm {
+        text-align: center;
+    }
+    .bottom-bar > div > span.pull-right{
+        clear: both;
+        float: none !important;
+    }
+    footer{
+        margin-bottom: 4em;
+    }
+}
+
+/* Medium devices (desktops, 992px and below) */
+@media (max-width: 992px) {
+    .text-center-md {
+        text-align: center;
+    }
+}
+
+/* Large devices (large desktops, 1200px and below) */
+@media (max-width: 1200px) {
+    .text-center-lg {
+        text-align: center;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
