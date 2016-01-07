@@ -136,7 +136,7 @@ body {
     color: #FFFFFF;
 }
 
-.bottom-bar .list-inline{
+.bottom-bar .list-inline {
     margin-bottom: 0;
 }
 
@@ -159,7 +159,7 @@ footer {
     color: #cccccc;
 }
 
-footer li a, footer li a:hover{
+footer li a, footer li a:hover {
     color: #cccccc;
     text-decoration: none;
 }
@@ -184,6 +184,7 @@ footer li a, footer li a:hover{
     /*color: #eb0089;*/
     color: #ff6cc2;
 }
+
 .renew {
     color: #948b86;
 }
@@ -193,12 +194,19 @@ footer li a, footer li a:hover{
     .text-center-sm {
         text-align: center;
     }
-    .bottom-bar > div > span.pull-right{
+
+    .bottom-bar > div > span.pull-right {
         clear: both;
         float: none !important;
     }
-    footer{
+
+    footer {
         margin-bottom: 4em;
+    }
+
+    .navbar-nav, .navbar-form{
+    /*.navbar-form {*/
+        margin: 0 0;
     }
 }
 
@@ -207,6 +215,12 @@ footer li a, footer li a:hover{
     .text-center-md {
         text-align: center;
     }
+
+    .block-center-md {
+        margin-left: auto !important;
+        /*margin-right: auto !important;*/
+    }
+
 }
 
 /* Large devices (large desktops, 1200px and below) */
@@ -218,15 +232,66 @@ footer li a, footer li a:hover{
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+    #navbar > ul > li > a > span.badge {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 25px;
+    }
 
+    body {
+        padding-top: 207px;
+    }
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-
+    body {
+        padding-top: 107px;
+    }
 }
+
+@media (max-width: 1199px) and (min-width: 768px) {
+    body {
+        padding-top: 117px;
+    }
+    /*.navbar-header{*/
+        /*max-width: 200px;*/
+    /*}*/
+    /*.navbar-brand{*/
+        /*max-height: 65px;*/
+    /*}*/
+    #navbar > ul:nth-child(2){
+        margin-right: 0;
+    }
+    #navbar > ul > li > a {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    .navbar-form{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    #navbar > ul > li > a > span.badge {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-top: 5px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    body {
+        padding-top: 158px;
+    }
+}
+/*@media (min-width: 992px) and (max-width: 1199px) {*/
+    /*#navbar > ul > li > a {*/
+        /*padding-top: 20px;*/
+        /*padding-bottom: 10px;*/
+    /*}*/
+/*}*/
