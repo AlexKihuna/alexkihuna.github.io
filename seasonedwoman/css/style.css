@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+}
+
+.main-navbar {
+    border-top: 6px solid #c9a740;
+}
+
+.bottom-bar{
+    background-color: #434343;
+    padding: 1em 0;
+}
+
+.category-link{
+    margin-top: 2em;
+    padding: 1em 0;
+    border-top: 2px solid #c9a740;
+    border-bottom: 2px solid #c9a740;
+}
+
+.navbar-brand > img {
+    margin-top: -20px;
+}
+
+.carousel-inner img::after{
+    background-color: rgba(201,167,64,.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    /*z-index: -1;*/
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: auto;
+}
+
+.larger-text {
+    font-size: larger;
+}
+
+section.page {
+    position: relative;
+    min-height: 100%;
+    padding: 2em 0;
+}
+
+.slider {
+    background-color: #fff;
+    padding: 0 0;
+}
+
+.intro {
+    background-color: #333;
+    /*background-image: url("../images/sally-mahihu.png");*/
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    /*background-size: contain;*/
+    /*font-size: larger;*/
+}
+
+.intro p {
+    margin: 2em 0;
+}
+
+.events {
+    /*background-color: #634100;*/
+    /*background: linear-gradient(to right, rgba(99, 65, 0, 0.5), rgba(99, 65, 0, .9));*/
+    font-size: large;
+    background: linear-gradient(to bottom, rgba(51, 51, 51, .9), rgba(201, 167, 64, .5));
+}
+
+.events::after {
+    /*background: url("../images/events.jpg") no-repeat;*/
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    content: "";
+    z-index: -1;
+}
+
+.featured {
+    /*background: linear-gradient(to right, rgba(99, 65, 0, 0.5), rgba(200, 65, 0, .9));*/
+    background: linear-gradient(to bottom, rgba(201, 167, 64, .5), rgba(0, 0, 0, .9));
+}
+
+.col-md-12.post {
+    border-bottom: 2px solid #c9a740;
+}
+
+.post {
+    margin-bottom: 1em;
+}
+
+.post:nth-child(odd) {
+    clear: left;
+}
+
+.post p {
+    margin: 1.2em 0;
+}
+footer{
+    background-color: #333333;
+}
