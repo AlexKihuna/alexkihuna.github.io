@@ -6,12 +6,12 @@ html, body {
     border-top: 6px solid #c9a740;
 }
 
-.bottom-bar{
+.bottom-bar {
     background-color: #434343;
     padding: 1em 0;
 }
 
-.category-link{
+.category-link {
     margin-top: 2em;
     padding: 1em 0;
     border-top: 2px solid #c9a740;
@@ -22,8 +22,8 @@ html, body {
     margin-top: -20px;
 }
 
-.carousel-inner img::after{
-    background-color: rgba(201,167,64,.6);
+.carousel-inner img::after {
+    background-color: rgba(201, 167, 64, .6);
     position: absolute;
     top: 0;
     bottom: 0;
@@ -33,7 +33,7 @@ html, body {
     /*z-index: -1;*/
 }
 
-.carousel-inner img{
+.carousel-inner img {
     width: 100%;
     height: auto;
 }
@@ -46,6 +46,8 @@ section.page {
     position: relative;
     min-height: 100%;
     padding: 2em 0;
+    border-top: 2px solid #c9a740;
+    border-bottom: 1px solid #c9a740;
 }
 
 .slider {
@@ -105,6 +107,12 @@ section.page {
 .post p {
     margin: 1.2em 0;
 }
-footer{
+
+blockquote footer {
+    border-top: none;
+}
+
+footer {
+    border-top: 2px solid #c9a740;
     background-color: #333333;
 }
