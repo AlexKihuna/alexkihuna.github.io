@@ -4,6 +4,9 @@ html, body {
 
 .main-navbar {
     border-top: 6px solid #c9a740;
+    border-right: transparent;
+    border-left: transparent;
+    border-radius: 0;
 }
 
 .bottom-bar {
@@ -13,9 +16,14 @@ html, body {
 
 .category-link {
     margin-top: 2em;
+    margin-bottom: 2em;
     padding: 1em 0;
     border-top: 2px solid #c9a740;
     border-bottom: 2px solid #c9a740;
+}
+
+.category-link h1,.category-link h2,.category-link h3,.category-link h4,{
+    font-size: larger;
 }
 
 .navbar-brand > img {
@@ -30,7 +38,7 @@ html, body {
     left: 0;
     right: 0;
     content: "";
-    /*z-index: -1;*/
+    z-index: 2;
 }
 
 .carousel-inner img {
@@ -45,7 +53,7 @@ html, body {
 section.page {
     position: relative;
     min-height: 100%;
-    padding: 2em 0;
+    padding: 3em 0;
     border-top: 2px solid #c9a740;
     border-bottom: 1px solid #c9a740;
 }
